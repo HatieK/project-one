@@ -33,3 +33,7 @@ margin: auto chỉ tác dụng vs thẻ block
 9.  vào setting
 10. chọn page
 11. nhánh main và bấm save
+<!-- push lại code sau khi sửa -->
+1. git add . 
+2. git commit -m ""
+3. git push origin main
