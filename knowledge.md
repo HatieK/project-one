@@ -22,3 +22,14 @@ Lưu ý phần stats. kích thước width của nó là 1048px
 margin: auto chỉ tác dụng vs thẻ block
 
 <!-- DEPLOY GITHUB -->
+1. Chọn gitbash mũi tên xuống bên phải khi bật terminal
+2. vào github chọn create new repository
+3. git init
+4. git add .
+5.  git commit -m "first commit"
+6.  git branch -M main
+7.  git remote add origin https://github.com/HatieK/project-one.git
+8.  git push -u origin main
+9.  vào setting
+10. chọn page
+11. nhánh main và bấm save
