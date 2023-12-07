@@ -21,6 +21,8 @@ Lưu ý phần stats. kích thước width của nó là 1048px
 
 margin: auto chỉ tác dụng vs thẻ block
 
+position sticky ko thể bám với kích thước bên ngoài thẻ cha chứa nó
+
 <!-- DEPLOY GITHUB -->
 1. Chọn gitbash mũi tên xuống bên phải khi bật terminal
 2. vào github chọn create new repository
@@ -37,3 +39,14 @@ margin: auto chỉ tác dụng vs thẻ block
 1. git add . 
 2. git commit -m ""
 3. git push origin main
+
+<!-- GIT CĂN BẢN -->
+1. git status ==> nothing to commit ==> file chưa thay đổi gì cả
+2. git diff + (tên file) ==> hiện ra sự khác nhau trước và sau commit
+3. khi sự thay đổi quá nhiều hiện dấu : thì bấm nút q
+<!-- CLONE DỰ ÁN GITHUB -->
+1. copy đường link
+2. chọn chỗ chứa dự án mở terminal: git clone + link dự án
+
+<!-- GIT PULL -->
+

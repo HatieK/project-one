@@ -8,6 +8,11 @@
   --main-fs: 1.4rem;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -53,16 +58,27 @@ a {
 }
 
 /* HEADER */
-.header {
+.header-fixed {
   background-color: #e6f0ff;
-  height: 100vh;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+}
+
+.hero-wrap {
+  background-color: #e6f0ff;
+  height: calc(100vh - 90px);
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .navbar {
   display: flex;
 
   align-items: center;
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 12px 0;
 }
 
 .navbar ul {
@@ -98,7 +114,7 @@ a {
 
 /* HERO */
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
 }
 .hero .info {
   max-width: 51%;
